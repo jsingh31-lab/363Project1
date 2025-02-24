@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-color-mode="light" data-light-theme="light_high_contrast">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Winter in Syracuse</title>
+  <link href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Hello World this is my branck file</h1>
+<body class="p-4 color-bg-subtle">
+
+  <header class="border border-subtle pb-3 mb-4 color-bg-accent">
+    <div class="d-flex flex-justify-between flex-items-center p-3">
+      <h1 class="text-bold p-2">Winter in Syracuse</h1>
+      <nav>
+        <a href="#" class="btn-link mr-3">Home</a>
+        <a href="#" class="btn-link mr-3">Events</a>
+        <a href="#" class="btn-link mr-3">Travel</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="mb-4">
+    <h2 class="text-bold text-primary text-center mb-3">The Winter Experience in Syracuse</h2>
+    <img class="width-full border border-subtle radius-lg mb-3" src="banner.JPG" alt="Snowy view of Crouse College in winter" >
+    <p class="f4 text-center">
+        Syracuse is transformed into a winter wonderland of snow-covered beauty with fun winter activities. 
+        Ice skating at community rinks, sledding down snowy hills on a sled, or plodding through trails for a day 
+        of skiing action is just a taste of what the whole family can become involved in. 
+        Dress warmly, get chilly, and have fun! 
+    </p>
+  </section>
+
+  <div class="d-flex flex-column flex-md-row flex-justify-between flex-items-stretch width-full p-3">
+
+    <div class="width-full width-md-auto flex-1 mx-1 text-center color-bg-accent p-3 box-shadow-large border radius-lg mb-3 mb-md-0">
+    <img src="skate.jpg" alt="ice skating" class="width-full rounded-3">
+    <h3>Ice Skating</h3>
+    </div>
+    
+    <div class="width-full width-md-auto flex-1 mx-1 text-center color-bg-accent p-3 box-shadow-large border radius-lg mb-3 mb-md-0">
+    <img src="ski.jpg" alt="skiing" class="width-full rounded-3">
+    <h3>Skiing</h3>
+    </div>
+
+    <div class="width-full width-md-auto flex-1 mx-1 text-center color-bg-accent p-3 box-shadow-large border radius-lg">
+    <img src="sled.jpg" alt="sledding" class="width-full rounded-3">
+    <h3>Sledding</h3>
+    </div>
+    
+    </div>
+    
+    <footer class="border border-subtle mb-4 color-bg-accent text-center p-3">
+    <h2>SYRACUSE UNIVERSITY</h2>
+    </footer>
+
 </body>
 </html>
